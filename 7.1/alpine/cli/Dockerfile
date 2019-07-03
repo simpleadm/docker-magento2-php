@@ -11,6 +11,7 @@ RUN set -eux; \
         libpng-dev \
         libxslt-dev \
         libzip-dev \
+        libmcrypt-dev \
     ; \
     \
     docker-php-ext-configure gd \
@@ -24,6 +25,7 @@ RUN set -eux; \
         gd \
         intl \
         opcache \
+        mcrypt \
         pdo_mysql \
         soap \
         xsl \
